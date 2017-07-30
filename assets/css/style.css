@@ -32,11 +32,11 @@ body{
 }
 
 .panel{
-	background-color: rgba(0, 0, 0, 0.5) !important;
+	background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .panel-heading{
-	background-color: rgba(105,105,105, 0.8) !important;
+	background-color: rgba(105,105,105, 1) !important;
 }
 
 .panel-body{
@@ -45,4 +45,21 @@ body{
 
 .panel-heading{
 	color: #fff !important;
+}
+
+/*Table*/
+
+th, h2 {
+    color: lightyellow !important;
+}
+
+tr:hover td {
+    background: rgba(105,105,105, 0.8) !important;
+    color: yellow !important;
+    font-weight: 80 !important;
+}
+
+td {
+    font-size: 13px !important;
+    font-weight: 80 !important;
 }
