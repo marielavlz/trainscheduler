@@ -1,0 +1,48 @@
+/*Jumbotron*/
+
+.jumbotron{
+	text-align: center;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    height: 320px;
+    color: #fff !important;
+    font-family: 'Cinzel', serif !important;
+}
+
+.hogwarts-header{
+	position: relative;
+	top: 20px;
+	left: 20px;
+    font-size: 75px !important;
+}
+
+.platform{
+	position: relative;
+	left: -520px;
+	top: -163px;
+	height: 213px;
+}
+
+/*Body*/
+
+body{
+	background-image: url(../images/wallpaperkc.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.panel{
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.panel-heading{
+	background-color: rgba(105,105,105, 0.8) !important;
+}
+
+.panel-body{
+	color: #fff;
+}
+
+.panel-heading{
+	color: #fff !important;
+}
